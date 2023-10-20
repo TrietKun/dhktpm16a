@@ -31,7 +31,7 @@
         for (Employee employee : employeeList) {
     %>
     <tr>
-        <td><%employee.getId()%></td>
+        <td><%employee.getId();%></td>
     </tr>
     <%}%>
 </table>
